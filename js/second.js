@@ -84,7 +84,7 @@ function calculateCompatibility() {
     const textElement = document.querySelector('#card4 .card-text');
     
     // Change the image
-    imageElement.src = "../assets/love.png";  // Make sure you have this image in your assets folder
+    imageElement.src = "./assets/love.png";  // Make sure you have this image in your assets folder
     
     // Change the title to h6 and update text
     titleElement.outerHTML = '<h6 style="font-size: 1.2rem;" class="card-title">See? Told you! 😏</h6>';
