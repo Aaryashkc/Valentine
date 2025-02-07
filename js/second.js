@@ -79,12 +79,12 @@ function updateButtonStates() {
 
 function calculateCompatibility() {
     const resultElement = document.getElementById('compatibilityResult');
-    const imageElement = document.querySelector('#card4 .gif-container img');
+    // const imageElement = document.querySelector('#card4 .gif-container img');
     const titleElement = document.querySelector('#card4 .card-title');
     const textElement = document.querySelector('#card4 .card-text');
     
     // Change the image
-    imageElement.src ='../assets/love.png';
+    // imageElement.src ='../assets/love.png';
     
     // Change the title to h6 and update text
     titleElement.outerHTML = '<h6 style="font-size: 1.2rem;" class="card-title">See? Told you! 😏</h6>';
